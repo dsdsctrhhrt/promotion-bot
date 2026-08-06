@@ -1,0 +1,16 @@
+{
+  "name": "promotion-bot-backend",
+  "version": "1.0.0",
+  "description": "Logs in as a bot Roblox account and promotes group members on request from the game",
+  "main": "bot-server.js",
+  "scripts": {
+    "start": "node bot-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "noblox.js": "^6.1.0"
+  }
+}
